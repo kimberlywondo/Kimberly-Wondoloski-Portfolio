@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# README
 
-Things you may want to cover:
+# Kimberly Wondoloski Portfolio
 
-* Ruby version
+### What is it?
+A showcase of my past projects, a blog, and contact info.
+Here you will find everything you need to get in touch with me, preview my work, download my resume, and find fresh inspiration from some of my favorite articles and tutorials.
 
-* System dependencies
+## Wireframe
+![Wireframe](app/assets/images/Wireframe.jpg)
 
-* Configuration
+### How is it made?
+* [Ruby](https://www.ruby-lang.org/en/ "ruby.org")
+* [Ruby on Rails](http://rubyonrails.org/ "rubyonrails.org")
+    * [Devise](https://github.com/plataformatec/devise "Devise docs")
 
-* Database creation
+    * Design - Google Fonts
+    * IDE - Atom 1.14.2
 
-* Database initialization
+### Running WanderList Locally
+My portfolio is written in Ruby (v 2.3.1).
+My portfolio is written in Ruby on Rails (v 5.0.1).
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Deployed :: [My Portfolio]( "WanderList App")
+#### Source Code :: [GitHub](https://github.com/kimberlywondo/kimberly-wondoloski-portfolio "GitHub Repo")
