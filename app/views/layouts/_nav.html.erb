@@ -1,0 +1,28 @@
+<nav class="navbar">
+  <div class="nav-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title"><%= link_to 'Kimberly Wondoloski', root_path %></span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <% if admin_signed_in? %>
+            <!--This block is only visible to signed in admins -->
+            <%= link_to 'New Post', new_post_path, class: "mdl-navigation__link" %>
+            <%= link_to 'My Account', edit_admin_registration_path, class: "mdl-navigation__link" %>
+            <%= link_to 'Logout', destroy_admin_session_path, :method => :delete, class: "mdl-navigation__link" %>
+            <!-- The block ends here -->
+          <% else %>
+            <%= link_to 'About', new_post_path, class: "mdl-navigation__link" %>
+            <%= link_to 'Blog', edit_admin_registration_path, class: "mdl-navigation__link" %>
+            <%= link_to 'Contact', destroy_admin_session_path, :method => :delete, class: "mdl-navigation__link" %>
+          <% end %>
+        </nav>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+    </main>
+  </div>
+</nav>

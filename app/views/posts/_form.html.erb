@@ -1,4 +1,4 @@
-<%= form_for @post do |f| %>
+<%= simple_form_for @post do |f| %>
   <% if @post.errors.any? %>
     <div id="error_explanation">
       <h2>
@@ -14,15 +14,15 @@
     </div>
   <% end %>
 
-  <div class="form-group">
-    <%= f.text_field :title, class: "form-control" %>
+  <div>
+    <%= f.input :title, class: "form-control" %>
   </div>
 
-  <div class="form-group">
-    <%= f.text_field :body, :as => :ckeditor, input_html: {:ckeditor => {:toolbar => 'FULL'}}, class: "form-control" %>
+  <div data-no-turbolink>
+    <%= f.input :body, :as => :ckeditor, input_html: {:ckeditor => {:toolbar => 'FULL'}}, class: "form-control" %>
   </div>
 
-  <div class="form-group">
-    <%= f.submit "submit" %>
+  <div>
+    <%= f.button :submit, class: "mdl-button mdl-js-button mdl-button--raised mdl-button--colored" %>
   </div>
 <% end %>

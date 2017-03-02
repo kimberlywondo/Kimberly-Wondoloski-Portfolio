@@ -52,6 +52,13 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'ckeditor', '~> 4.1'
+gem 'ckeditor'
+
+gem 'simple_form'
 
 gem 'devise'
+
+gem 'carrierwave'
+gem 'mini_magick'
+
+gem 'material_design_lite-sass'
