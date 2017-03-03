@@ -15,13 +15,15 @@
 //= require ckeditor/init
 //= require_tree .
 
+// changes element classes to revealed for welcome page animation function
 $(document).ready(function() {
 
       setTimeout(function(){
           $('body').addClass('revealed');
           $('h1').css('color','#222222');
-      }, 3000);
+      }, 1000);
 });
+// TODO - reset time, add 'click' function, color
 
 document.addEventListener('turbolinks:load', function() {
   componentHandler.upgradeDom();

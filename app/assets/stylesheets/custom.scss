@@ -3,12 +3,14 @@
 /*NAVIGATION*/
 .navbar {
   width: 100%;
+  height: 25%;
+  background: #262625;
 }
 
 .nav-layout-transparent {
  background: url('../images/IMG_2560.jpg') center / cover;
 }
 
-.mdl-layout__header-row .mdl-navigation__link {
+.mdl-layout__header-row .mdl-navigation__link, .mdl-layout-title {
   color: black;
 }
