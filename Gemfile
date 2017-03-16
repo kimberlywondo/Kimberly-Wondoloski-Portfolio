@@ -60,5 +60,3 @@ gem 'devise'
 
 gem 'carrierwave'
 gem 'mini_magick'
-
-gem 'material_design_lite-sass'

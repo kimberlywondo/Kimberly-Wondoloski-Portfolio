@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/about', to: 'welcome#about'
   get '/projects', to: 'welcome#projects'
   get '/contact', to: 'welcome#contact'
+  get '/blog', to: 'posts#index'
 
   devise_for :admins
   mount Ckeditor::Engine => '/ckeditor'

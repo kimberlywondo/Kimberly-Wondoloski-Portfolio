@@ -5,15 +5,21 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_link_tag "https://fonts.googleapis.com/icon?family=Material+Icons" %>
+    <%= stylesheet_link_tag  'https://fonts.googleapis.com/css?family=Montserrat:200|Raleway' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= render "layouts/nav" %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <!-- <div class="container-fluid"> -->
+    <div class="header">
+      <%= render "layouts/nav" %>
+    </div>
+    <div class="yield-container">
       <%= yield %>
-    <!-- </div> -->
+    </div>
   </body>
+
+  <footer>
+    <%= render "layouts/footer" %>
+  </footer>
+
 </html>

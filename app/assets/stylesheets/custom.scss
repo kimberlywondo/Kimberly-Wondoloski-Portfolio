@@ -1,16 +1,164 @@
-@import "material";
-
 /*NAVIGATION*/
+
+
+.header {
+  border: 1px solid green;
+}
+
+.header {
+  // background-image: url("hands_typing3.jpg");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  height: 500px;
+  position: relative;
+  z-index: 999;
+}
 .navbar {
-  width: 100%;
-  height: 25%;
-  background: #262625;
+  height: 95px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid blue;
+  opacity: 0,6;
+  margin-top: 20px
 }
 
-.nav-layout-transparent {
- background: url('../images/IMG_2560.jpg') center / cover;
-}
-
-.mdl-layout__header-row .mdl-navigation__link, .mdl-layout-title {
+.navbar-link {
   color: black;
+  text-decoration: none;
+  line-height: 95px;
+  vertical-align: middle;
+  margin: auto 30px auto 30px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.navbar-link:hover {
+  color: #EDAF2C;
+}
+
+#navbar-logo {
+  font-size: 26px;
+  border-style: solid none solid none;
+  border-style: dashed solid dashed solid;
+  border-color: black;
+  padding: 5px;
+  vertical-align: middle;
+  font-family: 'Raleway', sans-serif;
+}
+
+#navbar-title {
+  font-size: 26px;
+  // border-style: solid dashed solid dashed;
+  border-top: solid 5px;
+  border-bottom: solid 5px;
+  border-left: dashed 6px;
+  border-right: dashed 6px;
+  border-color: black;
+  padding: 10px 12px 10px 12px;
+  vertical-align: middle;
+  font-family: 'Raleway', sans-serif;
+}
+
+#navbar-title:hover {
+  color: #EDAF2C;
+}
+
+.navbar-left {
+  float: left;
+  text-align: right;
+}
+
+.navbar-right {
+  float: right;
+  text-align: left;
+}
+
+// HEADER OVERLAY
+.page-top-section {
+  border: 1px solid red;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  margin-top: 95px;
+  h1 {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+    font-size: 32px;
+    color: black;
+    span {
+      padding: 10px;
+      border: 3px solid black;
+    }
+  }
+}
+#about-page-background {
+  background-image: url("playa_ride.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 70%;
+}
+#project-page-background {
+  background-image: url("hands_typing3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#contact-page-background {
+  background-image: url("hands_typing3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.project-card {
+  float: left;
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-top: 40px;
+  height: 400px;
+}
+
+
+
+.blog-container {
+    width: 1200px;
+    float: left;
+    position: relative;
+    left: 50%;
+    margin-left: -600px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.blog-container h1 {
+    text-align: center;
+    margin: 0;
+}
+.blog-post {
+    position: relative;
+    width: 100%;
+    width: 350px;
+    height: 350px;
+    margin: 10px 0 0 10px;
+    position: relative;
+    // float: left;
+    border: 1px solid red;
+}
+
+// .overlay {
+//     position: absolute;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     color: #b5b5b5;
+//     margin: 0;
+//     padding: 20px;
+//     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+//     border: 1px solid blue;
+// }
+
+.post img {
+  float: left;
+  position: relative;
+  width: 100%;
+  width: 350px;
+  height: 350px;
 }
