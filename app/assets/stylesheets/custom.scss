@@ -2,13 +2,10 @@
 
 
 .header {
-  border: 1px solid green;
+
 }
 
 .header {
-  // background-image: url("hands_typing3.jpg");
-  // background-repeat: no-repeat;
-  // background-size: cover;
   height: 500px;
   position: relative;
   z-index: 999;
@@ -18,8 +15,8 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   border: 1px solid blue;
-  opacity: 0,6;
-  margin-top: 20px
+  margin-top: 20px;
+  // background-color: rgba(255, 255, 255, 0.4);
 }
 
 .navbar-link {
@@ -92,20 +89,29 @@
   }
 }
 #about-page-background {
-  background-image: url("playa_ride.jpg");
+  // background-image: url("playa_ride.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 100% 70%;
 }
 #project-page-background {
-  background-image: url("hands_typing3.jpg");
+  // background-image: url("white-brick-wall-tumblr2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 100% 40%;
 }
 #contact-page-background {
-  background-image: url("hands_typing3.jpg");
+  // background-image: url("8842.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: 100% 40%;
+}
+
+#resume-page-background img {
+  margin-top: 200px;
+  height: 900px;
+  margin-bottom: 200px;
+  margin-left: 25%;
 }
 
 .project-card {

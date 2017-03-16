@@ -18,4 +18,7 @@ class WelcomeController < ApplicationController
   def Blog
   end
 
+  def Resume
+  end
+
 end
