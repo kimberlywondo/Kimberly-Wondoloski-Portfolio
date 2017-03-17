@@ -18,6 +18,7 @@
 html, body {
   // width: 100%;
   margin: 0;
+  background-color: #FFFFFF;
 }
  /* 12-column responsive grid */
 
@@ -73,17 +74,22 @@ html {
 footer {
   position: fixed;
   text-align: center;
-  background-color: #262625;
+  background-color: #1B252D;
   bottom: 0px;
   width: 100%;
-  display: inline-block;
+  // display: inline-block;
+  // background:
+  // linear-gradient(-45deg, #262625 25%, transparent 25%, transparent 75%, black 75%, black) 0 0,
+  // linear-gradient(-45deg, black 25%, transparent 25%, transparent 75%, #262625 75%, #262625) 1em 1em,
+  // linear-gradient(45deg, black 17%, transparent 17%, transparent 25%, black 25%, black 36%, transparent 36%, transparent 64%, black 64%, black 75%, transparent 75%, transparent 83%, black 83%) 1em 1em;
+  // background-color: #262625;
+  // background-size: 2em 2em;
 }
 
 .social-link {
   width: 28px;
   height: 28px;
   margin: 10px;
-  fill: #EDAF2C;
 }
 
 

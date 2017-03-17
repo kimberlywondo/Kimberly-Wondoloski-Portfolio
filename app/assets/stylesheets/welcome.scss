@@ -12,7 +12,7 @@
   position: relative;
   height: 100%;
   width: 100%;
-  top: 50%;
+  top: 30%;
   text-align: center;
   z-index: 1001;
   color: #EDAF2C;
@@ -24,13 +24,9 @@
 .curtain-wrapper .curtain-section {
     position: fixed;
     top: 0;
-    width: 51%;
+    width: 50%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 1);
-    // background-image: url("white-brick-wall-tumblr.jpg");
-    // background-image: url("contact-page-background2.jpg");
-    // background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #1B252D;
     z-index: 1000;
     -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: translateX(0);  /* IE 9 */
@@ -39,10 +35,18 @@
 
 .curtain-wrapper .curtain-section.section-left {
     left: 0;
+    background-image: url("contact-page-background2.jpg");
+    background-size: cover;
+    background-position: 25% 100% ;
+    background-repeat: no-repeat;
 }
 
 .curtain-wrapper .curtain-section.section-right {
     right: 0;
+    background-image: url("contact-page-background2.jpg");
+    background-size: cover;
+    background-position: right 75%;
+    background-repeat: no-repeat;
 }
 
 

@@ -16,7 +16,7 @@
 }
 
 .navbar-link {
-  color: black;
+  color: #1B252D;
   text-decoration: none;
   line-height: 95px;
   vertical-align: middle;
@@ -30,9 +30,9 @@
 
 #navbar-logo {
   font-size: 26px;
-  border-style: solid none solid none;
+  // border-style: solid none solid none;
   border-style: dashed solid dashed solid;
-  border-color: black;
+  border-color: #1B252D;
   padding: 5px;
   vertical-align: middle;
   font-family: 'Raleway', sans-serif;
@@ -40,15 +40,14 @@
 
 #navbar-title {
   font-size: 26px;
-  // border-style: solid dashed solid dashed;
   border-top: solid 5px;
   border-bottom: solid 5px;
   border-left: dashed 6px;
   border-right: dashed 6px;
-  border-color: black;
+  border-color: #1B252D;
   padding: 10px 12px 10px 12px;
   vertical-align: middle;
-  font-family: 'Raleway', sans-serif;
+  // font-family: 'Raleway', sans-serif;
 }
 
 #navbar-title:hover {
@@ -69,13 +68,11 @@
 .page-top-section {
   border: 1px solid red;
   height: 350px;
-  // position: absolute;
-  top: 0;
-  margin-top: 95px;
+  width: 100%;
   a, a:visited {
     padding: 10px;
-    border: 3px solid black;
-    color: black;
+    border: 3px solid #1B252D;
+    color: #1B252D;
   }
   a:hover {
     color: #EDAF2C;
@@ -83,12 +80,12 @@
   h1 {
     text-align: center;
     vertical-align: middle;
-    line-height: 350px;
+    line-height: 300px;
     font-size: 32px;
-    color: black;
+    color: #1B252D;
     span {
       padding: 10px;
-      border: 3px solid black;
+      border: 3px solid #1B252D;
     }
   }
 }
@@ -118,6 +115,19 @@
   margin-left: 25%;
 }
 
+.about-section {
+  margin: 0 1%;
+  float: left;
+  border: 1px solid black;
+  height: 100%;
+  width: 30%;
+  img {
+    height: 300px;
+    width: 300px;
+    // border: 1px solid black;
+  }
+}
+
 .project-card {
   float: left;
   // border: 2px solid black;
@@ -131,7 +141,7 @@
 .project-card-top {
   top: 0;
   height: 75%;
-  color: white;
+  color: #FFFFFF;
   margin-left: 10px;
   h2 {
     font-size: 22px;
@@ -142,7 +152,7 @@
 .project-card-bottom {
   bottom: 0;
   height: 25%;
-  color: white;
+  color: #FFFFFF;
   margin-left: 10px;
   a {
     color: #EDAF2C;
@@ -152,7 +162,7 @@
     text-align: center;
   }
   a:hover {
-    color: white;
+    color: #FFFFFF;
   }
 }
 
@@ -172,7 +182,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #000;
+  background-color: #1B252D;
 }
 .project-card:hover .card-overlay {
   opacity: 0.9;
@@ -185,7 +195,7 @@
     left: 50%;
     margin-left: -600px;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid #1B252D;
 }
 
 .blog-container h1 {

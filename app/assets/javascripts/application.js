@@ -21,7 +21,7 @@ $(document).ready(function() {
       setTimeout(function(){
           $('body').addClass('revealed');
           $('.curtain').css('color','#EDAF2C');
-      }, 1000);
+      }, 3000);
 });
 // TODO - reset time, add 'click' function, color
 
