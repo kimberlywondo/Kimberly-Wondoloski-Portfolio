@@ -2,13 +2,8 @@
 
 
 .header {
-
-}
-
-.header {
-  height: 500px;
-  position: relative;
-  z-index: 999;
+  // height: 500px;
+  // position: relative;
 }
 .navbar {
   height: 95px;
@@ -17,6 +12,7 @@
   border: 1px solid blue;
   margin-top: 20px;
   // background-color: rgba(255, 255, 255, 0.4);
+  z-index: 999;
 }
 
 .navbar-link {
@@ -72,14 +68,22 @@
 // HEADER OVERLAY
 .page-top-section {
   border: 1px solid red;
-  height: 500px;
-  position: absolute;
+  height: 350px;
+  // position: absolute;
   top: 0;
   margin-top: 95px;
+  a, a:visited {
+    padding: 10px;
+    border: 3px solid black;
+    color: black;
+  }
+  a:hover {
+    color: #EDAF2C;
+  }
   h1 {
     text-align: center;
     vertical-align: middle;
-    line-height: 500px;
+    line-height: 350px;
     font-size: 32px;
     color: black;
     span {
@@ -88,6 +92,7 @@
     }
   }
 }
+
 #about-page-background {
   // background-image: url("playa_ride.jpg");
   background-repeat: no-repeat;
@@ -108,21 +113,70 @@
 }
 
 #resume-page-background img {
-  margin-top: 200px;
   height: 900px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   margin-left: 25%;
 }
 
 .project-card {
   float: left;
-  border: 2px solid black;
+  // border: 2px solid black;
   margin-left: 20px;
   margin-top: 40px;
   height: 400px;
+  position: relative;
+  box-shadow: 10px 10px 5px grey;
 }
 
+.project-card-top {
+  top: 0;
+  height: 75%;
+  color: white;
+  margin-left: 10px;
+  h2 {
+    font-size: 22px;
+    color: #EDAF2C;
+  }
+}
 
+.project-card-bottom {
+  bottom: 0;
+  height: 25%;
+  color: white;
+  margin-left: 10px;
+  a {
+    color: #EDAF2C;
+    font-size: 18px;
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+  a:hover {
+    color: white;
+  }
+}
+
+.project-card img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+.project-card:hover .card-overlay {
+  opacity: 0.9;
+}
 
 .blog-container {
     width: 1200px;

@@ -4,28 +4,67 @@
 
     <div class="project-card-row">
       <div class="project-card col-4">
-          <h1>Sumon</h1>
+          <%= image_tag("sumon.jpg")%>
+          <div class="card-overlay">
+          <div class="project-card-top">
+            <h2>Sumon</h2>
+            <p>
+              Simple math addition game.
+            </p>
+            <br />
+            <p>Technologies Used:
+              <br />
+              HTML, CSS, JavaScript, jQuery
+            </p>
+          </div>
+          <div class="project-card-bottom">
+          <%= link_to "Source Code", "https://github.com/kimberlywondo/Sumon_Game", :target => "_blank" %>
+          <%= link_to "Live Site", "https://kimberlywondo.github.io/Sumon_Game/", :target => "_blank" %>
+      </div>
+      </div>
+    </div>
+      <div class="project-card col-4">
+        <%= image_tag("storyify2.jpg")%>
+        <div class="card-overlay">
+        <div class="project-card-top">
+          <h2>My Story Books</h2>
           <p>
-            HTML, CSS, JavaScript, jQuery
+            Interactive children's story building app.
           </p>
-          <a>Github</a>
-          <a>Live</a>
+          <br />
+          <p>Technologies Used:
+            <br />
+            HTML, CSS, MongoDB, Express,js, Angular,js, Node.js
+          </p>
+
+        </div>
+        <div class="project-card-bottom">
+          <%= link_to "Source Code", "https://github.com/kimberlywondo/My-Story-Books", :target => "_blank" %>
+          <%= link_to "Live Site", "https://storyify.herokuapp.com/#!/index", :target => "_blank" %>
+        </div>
+      </div>
       </div>
       <div class="project-card col-4">
-          <h1>My Story Books</h1>
+        <%= image_tag("movies2.jpg")%>
+        <div class="card-overlay">
+        <div class="project-card-top">
+          <h2>Movies: Rails</h2>
           <p>
-            HTML, CSS, JavaScript, jQuery
+            Movie collection app with OMDB API.
           </p>
-          <a>Github</a>
-          <a>Live</a>
+          <br />
+          <p>Technologies Used:
+            <br />
+            HTML, CSS, jQuery, Ruby On Rails
+          </p>
+          <br />
+        </div>
+        <div class="project-card-bottom">
+
+          <%= link_to "Source Code", "https://github.com/kimberlywondo/movies_rails", :target => "_blank" %>
+          <%= link_to "Live Site", "https://movies-rails.herokuapp.com/", :target => "_blank" %>
+        </div>
       </div>
-      <div class="project-card col-4">
-          <h1>Movies: Rails</h1>
-          <p>
-            HTML, CSS, JavaScript, jQuery
-          </p>
-          <a>Github</a>
-          <a>Live</a>
       </div>
     </div>
     <!-- <div class="project-card-row">

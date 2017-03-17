@@ -20,7 +20,7 @@ $(document).ready(function() {
 
       setTimeout(function(){
           $('body').addClass('revealed');
-          $('h1').css('color','#222222');
+          $('.curtain').css('color','#EDAF2C');
       }, 1000);
 });
 // TODO - reset time, add 'click' function, color

@@ -15,7 +15,10 @@
   top: 50%;
   text-align: center;
   z-index: 1001;
-  color: white;
+  color: #EDAF2C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 42px;
+  vertical-align: middle;
 }
 
 .curtain-wrapper .curtain-section {
@@ -23,7 +26,11 @@
     top: 0;
     width: 51%;
     height: 100%;
-    background: #262625;
+    background-color: rgba(0, 0, 0, 1);
+    // background-image: url("white-brick-wall-tumblr.jpg");
+    // background-image: url("contact-page-background2.jpg");
+    // background-repeat: no-repeat;
+    background-size: cover;
     z-index: 1000;
     -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
     -ms-transform: translateX(0);  /* IE 9 */
@@ -81,5 +88,5 @@
     display: none;
 }
 .no-js h1 {
-    color: #222222;
+  color: #EDAF2C;
 }
